@@ -1,0 +1,245 @@
+You are building my **GetFit fitness app** using my existing GitHub repository:
+
+[https://github.com/vincentjonas065/GetFit.git](https://github.com/vincentjonas065/GetFit.git?utm_source=chatgpt.com)
+
+First inspect the entire repository and understand the existing structure, files, code and assets before changing anything. **Do not delete or replace working features unless necessary.** Build on what already exists.
+
+## MAIN GOAL
+
+Turn the existing GetFit project into a complete, clean and functional fitness app.
+
+The app should feel like a real modern fitness app but remain simple enough to maintain and understand.
+
+## APP STRUCTURE
+
+Create/complete these main sections:
+
+1. Welcome / onboarding
+2. Home
+3. Choose goal
+4. Choose equipment
+5. Exercise library
+6. Exercise details
+7. Workout plans
+8. Active workout
+9. Progress/history
+10. Ranking / XP
+11. Settings
+
+## FITNESS GOALS
+
+The user must be able to choose:
+
+- Lose Weight
+- Build Endurance
+- Gain Speed
+- Gain Strength
+
+## EQUIPMENT CATEGORIES
+
+Support:
+
+- Full Gym
+- No Equipment
+- Barbell
+- Dumbbell
+
+Also include the Speed workout category where appropriate.
+
+## EXERCISE LIBRARY
+
+Use the exercise list and assets already present in the repository.
+
+Do NOT create duplicate exercises.
+
+Each exercise should have:
+
+- Exercise name
+- Equipment/category
+- GIF/animation
+- Short description
+- Instructions
+- Difficulty
+- Reps or time where applicable
+
+If an exercise asset is missing, create the correct placeholder/reference structure instead of inventing a random exercise.
+
+Keep the exercise animations consistent:
+
+- 2D animation
+- Black and white
+- Clean fitness illustration
+- Simple background
+- Seamless movement
+- Easy to understand at a glance
+
+## WORKOUT PLANS
+
+Create the structure for:
+
+- 3 Month Plan
+- 6 Month Plan
+- 9 Month Plan
+- 12 Month Plan
+
+Each duration must support:
+
+- Lose Weight
+- Build Endurance
+- Gain Speed
+- Gain Strength
+
+IMPORTANT:
+
+I will provide the exact workout plans later.
+
+Therefore, create the database/data structure and UI needed for these plans but **DO NOT invent the actual official workout schedules, sets, reps or progression if I have not provided them.**
+
+Make the system easy for me to add the plans later.
+
+## WORKOUT SCREEN
+
+Create a workout interface showing:
+
+- Current exercise
+- Exercise animation
+- Exercise name
+- Reps/time
+- Sets
+- Rest timer
+- Next exercise
+- Previous exercise
+- Pause
+- Resume
+- Skip
+- Finish workout
+
+When a workout is completed, record it as completed.
+
+## PROGRESS
+
+Create a progress section showing:
+
+- Completed workouts
+- Total workouts
+- Current streak
+- XP
+- Progress toward selected goal
+- Workout history
+
+Keep the data persistent.
+
+## RANKING SYSTEM
+
+Create an XP/ranking system.
+
+Include ranks such as:
+
+- Rookie
+- Bronze
+- Silver
+- Gold
+- Elite
+
+Make the rank thresholds configurable so I can change them later.
+
+Award XP for completed workouts.
+
+Do not make the ranking system overly complicated.
+
+## HOME SCREEN
+
+The Home screen should show:
+
+- GetFit branding
+- User's selected goal
+- Current rank
+- XP
+- Current streak
+- Today's workout
+- Quick access to exercises
+- Progress
+
+## DESIGN
+
+Use a clean athletic style.
+
+The design should be:
+
+- Modern
+- Simple
+- Fast
+- Mobile-friendly
+- Easy to navigate
+- Consistent throughout the app
+
+Use the existing GetFit branding/assets where available.
+
+Do not add unnecessary visual clutter.
+
+## CODE QUALITY
+
+Before making changes:
+
+1. Inspect the repository.
+2. Identify the current framework/platform.
+3. Identify what already works.
+4. Reuse existing components and code where possible.
+5. Keep the project structure organised.
+6. Avoid unnecessary dependencies.
+7. Keep names consistent.
+8. Add comments only where they actually help.
+
+Do not rewrite the entire project just for the sake of rewriting it.
+
+## DATA STRUCTURE
+
+Create a clean structure for:
+
+- Users
+- Exercises
+- Goals
+- Equipment
+- Workout plans
+- Workouts
+- Workout history
+- XP
+- Ranks
+- Progress
+
+Make the exercise and workout data easy to edit later.
+
+## IMPORTANT
+
+Do not make assumptions about information I have not supplied.
+
+If something is missing, create a clean placeholder/data structure so it can be added later.
+
+Do not remove existing exercises or assets.
+
+Do not duplicate exercises.
+
+Do not create fake workout plans and pretend they are my official plans.
+
+## FINAL TASK
+
+After inspecting the repository, implement as much of the complete GetFit app as possible.
+
+Then:
+
+1. Check the entire project for errors.
+2. Fix broken imports/references.
+3. Check navigation between screens.
+4. Check that exercise data loads correctly.
+5. Check that GIFs/assets load correctly.
+6. Check that workout completion works.
+7. Check that XP and ranking work.
+8. Check that progress/history works.
+9. Make sure the project can build/run.
+10. Give me a short summary of:
+   - What you changed
+   - What already existed
+   - What is still missing
+   - Exactly where I need to add my workout plans and future GIFs/assets
+
+Most importantly: **work with the existing GitHub repository instead of starting a completely separate project.**
